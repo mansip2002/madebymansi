@@ -16,17 +16,18 @@ const NavBar = () => {
                             <NavLinks to='about'>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'>Discover</NavLinks>
+                            <NavLinks to='experience'>Experience</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'>Services</NavLinks>
+                            <NavLinks to='projects'>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='contact'>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                      <NavBtnLink to="/signin">Sign In</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
