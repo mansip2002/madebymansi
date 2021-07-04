@@ -2,7 +2,10 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar';
 import NavBar from '../components/NavBar';
 import InfoSection from '../components/InfoSection';
-import { home0bjOne, home0bjTwo } from '../components/InfoSection/Data';
+import IntroSection from '../components/IntroSection';
+import Contact from '../components/Contact';
+import { experience } from '../components/InfoSection/Data';
+import { introduction } from '../components/IntroSection/Intro';
 import Projects from '../components/Projects';
 
 
@@ -17,9 +20,10 @@ const Home = () => {
         <React.Fragment>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <NavBar toggle={toggle} />
-            <InfoSection {...home0bjOne}/>
+            <IntroSection {...introduction}/>
+            <InfoSection {...experience}/>
             <Projects />
-            <InfoSection {...home0bjTwo}/>
+            <Contact />
         </React.Fragment>
     )
 }

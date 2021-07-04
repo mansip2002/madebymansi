@@ -8,22 +8,25 @@ import {ProjectsH1, ProjectsH2, ProjectsP, ProjectsWrapper, ProjectsContainer, P
 const Projects = () => {
     return (
         <ProjectsContainer id="projects">
-            <ProjectsH1>My Projects</ProjectsH1>
+            <ProjectsH1>Projects</ProjectsH1>
             <ProjectsWrapper>
                 <ProjectCard>
                     <ProjectIcon src={Icon1} />
-                    <ProjectsH2>Reduce Expenses</ProjectsH2>
-                    <ProjectsP>We talk a lot about stuff</ProjectsP>
+                    <ProjectsH2>Name</ProjectsH2>
+                    <ProjectsP>A webapp that scraps data from journal articles for scoping reviews.</ProjectsP>
+                    <ProjectsP>Python, Django, JS</ProjectsP>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon2} />
-                    <ProjectsH2>Reduce Expenses</ProjectsH2>
-                    <ProjectsP>We talk a lot about stuff</ProjectsP>
+                    <ProjectsH2>Name</ProjectsH2>
+                    <ProjectsP>A webapp that scraps data from journal articles for scoping reviews.</ProjectsP>
+                    <ProjectsP>Python, Django, JS</ProjectsP>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon3} />
-                    <ProjectsH2>Reduce Expenses</ProjectsH2>
-                    <ProjectsP>We talk a lot about stuff</ProjectsP>
+                    <ProjectsH2>Name</ProjectsH2>
+                    <ProjectsP>A webapp that scraps data from journal articles for scoping reviews.</ProjectsP>
+                    <ProjectsP>Python, Django, JS</ProjectsP>
                 </ProjectCard>
             </ProjectsWrapper>
         </ProjectsContainer>

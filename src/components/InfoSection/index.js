@@ -1,29 +1,102 @@
 import React from 'react'
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Img, ImgWrap} from './InfoElements';
+import {InfoContainer, InfoRow, Column1, Column2, PositionDates, TopLine, Heading, CompanyName, Img, ImgWrap, RoleDescription} from './InfoElements';
 
-const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headline, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headline, img, alt}) => {
     return (
         <React.Fragment>
             <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
-                        <TextWrapper>
-                            <TopLine>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle darkText = {darkText}>{description}</Subtitle>
-                        </TextWrapper>
-                        </Column1>
-                        <Column2>
                         <ImgWrap>
                             <Img src={img} alt={alt}/>
                         </ImgWrap>
+                        </Column1>
+                        <Column2>
+                            <TopLine>{topLine}</TopLine>
+                            <Heading lightText={lightText}>{headline}</Heading>
+                            <CompanyName 
+                            darkText = {darkText}
+                            >
+                            University of Toronto                                          
+                            </CompanyName>
+                            <PositionDates darkText={darkText}>
+                            Research Assistant | May 2021 - August 2021    
+                            </PositionDates>
+                            <RoleDescription darkText={darkText}>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            </RoleDescription>
+                            <CompanyName 
+                            darkText = {darkText}
+                            >
+                            University of Toronto                                          
+                            </CompanyName>
+                            <PositionDates darkText={darkText}>
+                            Research Assistant | May 2021 - August 2021    
+                            </PositionDates>
+                            <RoleDescription darkText={darkText}>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            </RoleDescription>
+                            <CompanyName 
+                            darkText = {darkText}
+                            >
+                            University of Toronto                                          
+                            </CompanyName>
+                            <PositionDates darkText={darkText}>
+                            Research Assistant | May 2021 - August 2021    
+                            </PositionDates>
+                            <RoleDescription darkText={darkText}>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            </RoleDescription>
+                            <CompanyName 
+                            darkText = {darkText}
+                            >
+                            University of Toronto                                          
+                            </CompanyName>
+                            <PositionDates darkText={darkText}>
+                            Research Assistant | May 2021 - August 2021    
+                            </PositionDates>
+                            <RoleDescription darkText={darkText}>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            <li>
+                            what you did 
+                            </li>
+                            </RoleDescription>
                         </Column2>
                     </InfoRow>
-                </InfoWrapper>
             </InfoContainer>
+            
         </React.Fragment>
     )
 }
 
 export default InfoSection
+

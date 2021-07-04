@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
-import {Nav, NavbarContainer, Navlogo, MobileIcon, NavMenu, NavItem, NavLinks} from './navElements';
+import {Nav, NavbarContainer, NavImg, MobileIcon, NavMenu, NavItem, NavLinks} from './navElements';
 
 const NavBar = ({toggle}) => {
 
@@ -27,7 +27,10 @@ const NavBar = ({toggle}) => {
         <React.Fragment> 
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <Navlogo to='/' onClick={toggleHome}>home</Navlogo>
+                    <NavImg src="images/Profile Icon.png"
+                    to='/' 
+                    onClick={toggleHome} 
+                    ></NavImg>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -43,13 +46,28 @@ const NavBar = ({toggle}) => {
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='experience'>Experience</NavLinks>
+                            <NavLinks to='experience'
+                            smooth = {true}
+                            duration = {500}
+                            spy = {true}
+                            exact = 'true'
+                            offsett = {-80}>Experience</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='projects'>Projects</NavLinks>
+                            <NavLinks to='projects'
+                            smooth = {true}
+                            duration = {500}
+                            spy = {true}
+                            exact = 'true'
+                            offsett = {-80}>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks to='contact'
+                            smooth = {true}
+                            duration = {500}
+                            spy = {true}
+                            exact = 'true'
+                            offsett = {-80}>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                     

@@ -1,14 +1,16 @@
-export const experience = {
-    id: 'experience', 
+export const introduction = {
+    id: 'about', 
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    headline: 'Professional Experience',
+    topLine: '',
+    headline: 'Hello I\'m Mansi',
     imgStart: true,
-    img: "/images/lightpost.png",
+    img: "images/4.JPG",
     alt: 'Car',
     dark:true,
     primary: true,
     darkText: true
 }
+
 

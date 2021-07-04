@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const InfoContainer = styled.div`
+export const IntroContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#010606')};
 
@@ -9,7 +9,7 @@ export const InfoContainer = styled.div`
     }
 `;
 
-export const InfoWrapper = styled.div`
+export const IntroWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 860px;
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 `;
 
-export const InfoRow = styled.div`
+export const IntroRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -32,20 +32,19 @@ export const InfoRow = styled.div`
     }
 `;
 
-export const Column1 = styled.div`
+export const IntroColumn1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
-
-    grid-area: col1;
-`;
-
-export const Column2 = styled.div` //text
-    text-align: center;
-    padding: 0px 15px;
     grid-area: col2;
 `;
 
-export const TopLine = styled.p`
+export const IntroColumn2 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col1;
+`;
+
+export const IntroTopLine = styled.p`
     color: #01bf71;
     font-size: 16px;
     line-height: 16px;
@@ -55,12 +54,10 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
 `;
 
-export const Heading = styled.h1`
+export const IntroHeading = styled.h1`
     margin-bottom: 24px;
-    text-align: left;
     font-size: 48px;
     line-height: 1.1;
-    margin-left: 5%;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa':'#010606')};
 
@@ -69,47 +66,26 @@ export const Heading = styled.h1`
     }
 `;
 
-export const TextWrapper = styled.div`
+export const IntroTextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
+    padding-bottom: 60px;
 `;
 
-export const CompanyName = styled.p`
-    max-width: 100%;
+export const IntroSubtitle = styled.p`
+    max-width: 440px;
+    margin-bottom: 35px;
     font-size: 24px;
-    margin-left: 5%;
     line-height: 24px;
-    text-align: left;
     color: ${({darkText}) => (darkText ? '#010606':'#fff')};
 `;
 
-export const PositionDates = styled.p`
-    max-width: 100%;
-    margin-bottom: 35px;
-    font-size: 18px;
-    margin-left: 5%;
-    line-height: 24px;
-    text-align: left;
-    color: ${({darkText}) => (darkText ? '#010606':'#fff')};
-`;
-
-
-export const RoleDescription = styled.p`
-    max-width: 100%;
-    margin-bottom: 35px;
-    font-size: 18px;
-    margin-left: 5%;
-    line-height: 24px;
-    text-align: left;
-    color: ${({darkText}) => (darkText ? '#010606':'#fff')};
-`;
-
-export const ImgWrap = styled.div`
+export const IntroImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
 `;
 
-export const Img = styled.img`
+export const IntroImg = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
 `;
