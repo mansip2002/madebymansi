@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
-import {Nav, NavbarContainer, Navlogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './navElements';
+import {Nav, NavbarContainer, Navlogo, MobileIcon, NavMenu, NavItem, NavLinks} from './navElements';
 
 const NavBar = ({toggle}) => {
 
@@ -53,9 +53,6 @@ const NavBar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     
-                    <NavBtn>
-                      <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </React.Fragment>
