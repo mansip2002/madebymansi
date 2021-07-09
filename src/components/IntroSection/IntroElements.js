@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const IntroContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#010606')};
+    background: linear-gradient(#22303c,#1b1725);
+    
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;

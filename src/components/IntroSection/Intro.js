@@ -1,16 +1,16 @@
 export const introduction = {
     id: 'about', 
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: '',
     headline: 'Hello I\'m Mansi',
     imgStart: true,
-    img: "images/4.JPG",
+    img:"",
     alt: 'Car',
-    dark:true,
-    primary: true,
-    darkText: true
+    dark:false,
+    primary: false,
+    darkText: false
 }
 
 

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => scrollNav ? '#494947' : '#0E1F2F'};
+    background: ${({scrollNav}) => scrollNav ? '#192736' : '#22303d'};
     height: 80px;
     margin-top: -80px;
     display:flex;
@@ -33,7 +33,7 @@ export const NavImg = styled.img`
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
 `;
 
 

@@ -7,7 +7,7 @@ export const ProjectsContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #494947;
+    background: linear-gradient(#22303c,#1b1725);
 
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -38,7 +38,7 @@ export const ProjectsWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-    background: #fff;
+    background: #cdd3dd;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -53,6 +53,7 @@ export const ProjectCard = styled.div`
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+        background: #fff;
     }
 `;
 

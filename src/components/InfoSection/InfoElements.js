@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#010606')};
+    background: linear-gradient(#1b1725,#22303c);
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -105,7 +105,7 @@ export const RoleDescription = styled.p`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 444px;
     height: 100%;
 `;
 
