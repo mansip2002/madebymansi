@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProjectsContainer = styled.div`
-    height: 800px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,15 +21,10 @@ export const ProjectsContainer = styled.div`
 export const Text = styled.div`
 
     color: #fff;
-    font-size: 36px;
+    font-size: 20px;
     text-shadow:  
     0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
     0 0 42px #cdf7f6,
-    0 0 82px #cdf7f6,
-    0 0 92px #cdf7f6,
-    0 0 102px #cdf7f6,
     0 0 151px #cdf7f6;
   
 

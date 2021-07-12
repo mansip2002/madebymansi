@@ -57,9 +57,14 @@ export const IntroTopLine = styled.p`
 
 export const IntroHeading = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
+    color: #fff;
+    font-size: 48px;
+    text-shadow:  
+    0 0 21px #fff,
+    0 0 151px #cdf7f6;
+    
     color: ${({lightText}) => (lightText ? '#f7f8fa':'#010606')};
 
     @media screen and (max-width: 480px) {

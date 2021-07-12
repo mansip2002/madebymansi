@@ -6,7 +6,7 @@ import {Text, ProjectsH2, ProjectsP, ProjectsWrapper, ProjectsContainer, Project
 const contactMe = () => {
     return (
         <ProjectsContainer>
-            <Text>Get in Touch!</Text>
+            <Text>Want to chat? Feel free to reach out, even if it's just to talk about your favourite books. </Text>
         </ProjectsContainer>
     )
 }
