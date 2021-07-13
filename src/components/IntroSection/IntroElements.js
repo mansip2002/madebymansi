@@ -87,7 +87,7 @@ export const IntroSubtitle = styled.p`
 `;
 
 export const IntroImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 444px;
     height: 100%;
 `;
 

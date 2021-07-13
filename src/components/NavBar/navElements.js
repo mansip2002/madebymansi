@@ -42,7 +42,7 @@ export const MobileIcon = styled.div`
 
     @media screen and (max-width: 768px) {
         display:block;
-        color: #000;
+        color: #fff;
         position:absolute;
         top:0;
         right:0;
@@ -79,7 +79,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #949497;
+        border-bottom: 3px solid #fff;
     }
 `;
 

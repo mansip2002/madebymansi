@@ -7,6 +7,11 @@ const IntroSection = ({lightText, lightBg, id, imgStart, topLine, darkText, head
             <IntroContainer lightBg={lightBg} id={id}>
                 <IntroWrapper>
                     <IntroRow imgStart={imgStart}>
+                        <IntroColumn1>
+                        <IntroImgWrap>
+                            <IntroImg src={img} alt={alt}/>
+                        </IntroImgWrap>
+                        </IntroColumn1>
                         <IntroColumn2>
                         <IntroTextWrapper>
                             <IntroTopLine>{topLine}</IntroTopLine>

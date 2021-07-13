@@ -6,7 +6,7 @@ export const introduction = {
     topLine: '',
     headline: 'Hello I\'m Mansi',
     imgStart: true,
-    img:"",
+    img:"/images/intro.png",
     alt: 'Car',
     dark:false,
     primary: false,
