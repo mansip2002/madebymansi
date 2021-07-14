@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Text, ProjectsH2, ProjectsP, ProjectsWrapper, ProjectsContainer, ProjectIcon, ProjectCard} from  './contactElements';
+import {Text, ProjectsContainer, ProjectIcon, ProjectCard} from  './contactElements';
 
 const contactMe = () => {
     return (

@@ -9,18 +9,6 @@ export const InfoContainer = styled.div`
     }
 `;
 
-export const InfoWrapper = styled.div`
-    display: grid;
-    z-index: 1;
-    height: 860px;
-    width: 100%;
-    max-width: 2000px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 24px;
-    justify-content: center;
-`;
-
 export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
@@ -67,11 +55,6 @@ export const Heading = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
-`;
-
-export const TextWrapper = styled.div`
-    max-width: 540px;
-    padding-top: 0;
 `;
 
 export const CompanyName = styled.p`

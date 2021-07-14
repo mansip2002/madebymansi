@@ -65,14 +65,3 @@ export const ProjectsH1 = styled.h1`
         font-size: 2rem;
     }
 `;
-
-export const ProjectsH2 = styled.h2`
-    cont-size: 1rem;
-    margin-bottom: 10px;
-`;
-
-export const ProjectsP = styled.p`
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-`;
