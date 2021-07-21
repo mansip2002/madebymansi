@@ -55,13 +55,3 @@ export const ProjectIcon = styled.img`
     margin-right: 30px;
     margin-bottom: 10px;
 `;
-
-export const ProjectsH1 = styled.h1`
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 64px;
-
-    @media screen and (max-width: 480px) {
-        font-size: 2rem;
-    }
-`;

@@ -66,8 +66,8 @@ const NavBar = ({toggle}) => {
                             smooth = {true}
                             duration = {500}
                             spy = {true}
-                            exact = 'true'
-                            offsett = {-80}>Contact</NavLinks>
+                            exact = 'false'
+                            offsett = {80}>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                     

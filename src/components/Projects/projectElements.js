@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProjectsContainer = styled.div`
-    height: 800px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@ export const ProjectCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 50px;
-    max-height: 2000px;
+    max-height: 1000px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -67,6 +67,7 @@ export const ProjectsH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 64px;
+    text-align: left;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -74,11 +75,19 @@ export const ProjectsH1 = styled.h1`
 `;
 
 export const ProjectsH2 = styled.h2`
-    cont-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: left;
 `;
 
 export const ProjectsP = styled.p`
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
+`;
+
+export const ProjectsBold = styled.p`
+    color: purple;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: left;
+
 `;
