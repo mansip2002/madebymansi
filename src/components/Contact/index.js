@@ -1,5 +1,7 @@
 import React from 'react';
-
+import GithubLogo from '../../images/github.png';
+import LinkedinLogo from '../../images/linkedin.png';
+import EmailLogo from '../../images/email.jpg';
 import {Text, ProjectsContainer, ProjectIcon, ProjectCard} from  './contactElements';
 
 const contactMe = () => {
@@ -9,13 +11,13 @@ const contactMe = () => {
             <br></br>
             <ProjectCard> 
                 <a href ="https://github.com/mansip2002" target="_blank" rel="noopener noreferrer">
-                <ProjectIcon src="/images/github.png" alt="car"></ProjectIcon>
+                <ProjectIcon src={GithubLogo} alt="car"></ProjectIcon>
                 </a>
                 <a href ="https://www.linkedin.com/in/mansi-patel-2002/" target="_blank" rel="noopener noreferrer">
-                <ProjectIcon src="/images/linkedin.png" alt="car"></ProjectIcon>
+                <ProjectIcon src={LinkedinLogo} alt="car"></ProjectIcon>
                 </a>
                 <a href ="mailto:mansi2156@gmail.com" target="_blank" rel="noopener noreferrer">
-                <ProjectIcon src="/images/email.jpg" alt="car"></ProjectIcon>
+                <ProjectIcon src={EmailLogo} alt="car"></ProjectIcon>
                 </a>
             </ProjectCard>
 

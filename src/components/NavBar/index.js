@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
 import {Nav, NavbarContainer, NavImg, MobileIcon, NavMenu, NavItem, NavLinks} from './navElements';
+import Icon1 from '../../images/Profile Icon.png';
 
 const NavBar = ({toggle}) => {
 
@@ -27,7 +28,7 @@ const NavBar = ({toggle}) => {
         <React.Fragment> 
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavImg src="images/Profile Icon.png"
+                    <NavImg src={Icon1}
                     to='/' 
                     onClick={toggleHome} 
                     ></NavImg>

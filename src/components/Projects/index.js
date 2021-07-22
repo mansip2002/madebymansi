@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon1 from '../../images/arduinoCar.png';
 import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-2.svg';
+import Icon3 from '../../images/Profile Icon.png';
 
 import {ProjectsH1, ProjectsH2, ProjectsP, ProjectsWrapper, ProjectsContainer, ProjectIcon, ProjectCard, ProjectsBold} from  './projectElements';
 
@@ -31,7 +31,7 @@ const Projects = () => {
                     </a>
                 </ProjectCard>
                 <ProjectCard>
-                    <ProjectIcon src="images/Profile Icon.png" />
+                    <ProjectIcon src={Icon3} />
                     <ProjectsH2>This website!</ProjectsH2>
                     <ProjectsBold>HTML, ReactJS, CSS, Photoshop, Illustrator</ProjectsBold>
                     <ProjectsP>I love to design things and so I created this site to better represent that. All images were created by me using Photoshop and Illustrator. </ProjectsP>
