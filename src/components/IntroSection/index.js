@@ -1,7 +1,8 @@
 import React from 'react'
 import {IntroContainer, IntroWrapper, IntroRow, IntroColumn1, IntroColumn2, IntroTextWrapper, IntroTopLine, IntroHeading, IntroSubtitle, IntroImg, IntroImgWrap} from './IntroElements';
+import pic from '../../images/intro.png';
 
-const IntroSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headline, img, alt}) => {
+const IntroSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headline, alt}) => {
     return (
         <React.Fragment>
             <IntroContainer lightBg={lightBg} id={id}>
@@ -9,7 +10,7 @@ const IntroSection = ({lightText, lightBg, id, imgStart, topLine, darkText, head
                     <IntroRow imgStart={imgStart}>
                         <IntroColumn1>
                         <IntroImgWrap>
-                            <IntroImg src={img} alt={alt}/>
+                            <IntroImg src={pic} alt={alt}/>
                         </IntroImgWrap>
                         </IntroColumn1>
                         <IntroColumn2>
