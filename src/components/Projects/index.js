@@ -2,6 +2,7 @@ import React from 'react';
 import Icon1 from '../../images/arduinoCar.png';
 import Icon2 from '../../images/svg-3.svg';
 import Icon3 from '../../images/Profile Icon.png';
+import Icon4 from '../../images/chromeExtension.png';
 
 import {ProjectsH1, ProjectsH2, ProjectsP, ProjectsWrapper, ProjectsContainer, ProjectIcon, ProjectCard, ProjectsBold} from  './projectElements';
 
@@ -21,12 +22,12 @@ const Projects = () => {
                     </a>
                 </ProjectCard>
                 <ProjectCard>
-                    <ProjectIcon src={Icon2}/>
-                    <ProjectsH2>Upper</ProjectsH2>
-                    <ProjectsBold>MERN: MongoDB, ExpressJS, ReactJS, NodeJS</ProjectsBold>
-                    <ProjectsP>A webapp that allows students from the University of Toronto to share how long online tasks and assignments took them to complete.</ProjectsP>
+                    <ProjectIcon src={Icon4}/>
+                    <ProjectsH2>Research Article Scraper</ProjectsH2>
+                    <ProjectsBold>Javascript, CSS, HTML</ProjectsBold>
+                    <ProjectsP>A chrome extension website scraper that returns a summary depending on input parameters (date of publication, objective, name, and journal) of a research article on Elsevier.</ProjectsP>
                     <br></br>
-                    <a href ="https://github.com/mansip2002/UpperYear" target="_blank" rel="noopener noreferrer">
+                    <a href ="https://github.com/mansip2002/chromeExtensionScraper" target="_blank" rel="noopener noreferrer">
                         View More
                     </a>
                 </ProjectCard>

@@ -21,75 +21,42 @@ const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headl
                             University of Toronto                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Research Assistant | May 2021 - August 2021    
+                            Research Assistant | May 2021 - Present    
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
+                            Assisting with a scoping review on visual attention in automated driving
                             </li>
                             </RoleDescription>
                             <CompanyName 
                             darkText = {darkText}
                             >
-                            University of Toronto                                          
+                            Trelent                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Research Assistant | May 2021 - August 2021    
+                            Software Developer Intern | May 2021 - Present   
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
+                            Working on redesigning the client dashboard using ReactJS, HTML, and CSS 
                             </li>
                             </RoleDescription>
                             <CompanyName 
                             darkText = {darkText}
                             >
-                            University of Toronto                                          
+                            Toronto District School Board                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Research Assistant | May 2021 - August 2021    
+                            Summer Camp Counselor – Programming and Arts | June 2019 - August 2019    
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
-                            what you did 
+                            Taught elementary campers the basics of programming in Python 
                             </li>
                             <li>
-                            what you did 
+                            Developed daily agendas, budget proposals, attendance sheets, and trip outlines 
                             </li>
-                            <li>
-                            what you did 
-                            </li>
-                            </RoleDescription>
-                            <CompanyName 
-                            darkText = {darkText}
-                            >
-                            University of Toronto                                          
-                            </CompanyName>
-                            <PositionDates darkText={darkText}>
-                            Research Assistant | May 2021 - August 2021    
-                            </PositionDates>
-                            <RoleDescription darkText={darkText}>
-                            <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
-                            </li>
-                            <li>
-                            what you did 
-                            </li>
+
                             </RoleDescription>
                         </Column2>
                     </InfoRow>

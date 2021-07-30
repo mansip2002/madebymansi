@@ -19,9 +19,6 @@ const IntroSection = ({lightText, lightBg, id, imgStart, topLine, darkText, head
                             <IntroHeading lightText={lightText}>{headline}</IntroHeading>
                             <IntroSubtitle darkText = {darkText}>
                             Computer Engineering Student  <br /><br />  Designer <br /><br/> Learner
-                            
-                            
-                            
                             </IntroSubtitle>
                         </IntroTextWrapper>
                        
