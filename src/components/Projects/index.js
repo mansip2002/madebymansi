@@ -1,6 +1,5 @@
 import React from 'react';
 import Icon1 from '../../images/arduinoCar.png';
-import Icon2 from '../../images/svg-3.svg';
 import Icon3 from '../../images/Profile Icon.png';
 import Icon4 from '../../images/chromeExtension.png';
 
