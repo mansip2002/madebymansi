@@ -47,7 +47,7 @@ const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headl
                             Toronto District School Board                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Summer Camp Counselor – Programming and Arts | June 2019 - August 2019    
+                            Summer Camp Counselor – Programming and Arts | July 2019 - August 2019    
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
