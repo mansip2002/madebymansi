@@ -21,11 +21,11 @@ const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headl
                             University of Toronto                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Research Assistant | May 2021 - Present    
+                            Research Assistant | May 2021 - August 2021    
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
-                            Assisting with a scoping review on visual attention in automated driving
+                            Assisted with a scoping review on visual attention in automated driving
                             </li>
                             </RoleDescription>
                             <CompanyName 
@@ -34,11 +34,11 @@ const InfoSection = ({lightText, lightBg, id, imgStart, topLine, darkText, headl
                             Trelent                                          
                             </CompanyName>
                             <PositionDates darkText={darkText}>
-                            Software Developer Intern | May 2021 - Present   
+                            Software Developer Intern | May 2021 - August 2021   
                             </PositionDates>
                             <RoleDescription darkText={darkText}>
                             <li>
-                            Working on redesigning the client dashboard using ReactJS, HTML, and CSS 
+                            Worked on redesigning the client dashboard using ReactJS, HTML, and CSS 
                             </li>
                             </RoleDescription>
                             <CompanyName 
